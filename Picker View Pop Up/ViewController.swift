@@ -27,6 +27,13 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         "Friday"
     ]
     
+    let gender: [String] = [
+        
+        "Male",
+        "Female",
+        "Other"
+    ]
+    
     var selectedItem: String?
 
     override func viewDidLoad() {
